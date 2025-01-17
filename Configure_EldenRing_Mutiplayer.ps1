@@ -1,0 +1,3 @@
+invoke-webrequest -uri 'https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases/download/v1.7.8/ersc.zip' -OutFile C:\Temp\ERSC.zip
+Expand-Archive -path 'C:\Temp\ersc.zip' -DestinationPath "C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\Game\"
+invoke-webrequest -uri 'https://cdn.discordapp.com/attachments/1204213809695432716/1260362846391504978/ersc_settings.ini?ex=668fb49e&is=668e631e&hm=312d86177e88aba92057d1f6d2302d47498d9a84e9b05cbd9d7f1ffdd1da4f40&' -OutFile 'C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\Game\SeamlessCoop\ersc_settings.ini'

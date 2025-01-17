@@ -1,0 +1,1 @@
+﻿WinGet install --name 'Classic Shell'
